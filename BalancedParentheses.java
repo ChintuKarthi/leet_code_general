@@ -1,4 +1,4 @@
-# Question: https://leetcode.com/problems/valid-parentheses/
+// Question: https://leetcode.com/problems/valid-parentheses/
 
 public boolean isValid(String s) {
     Stack<Character> stack = new Stack<Character>();
