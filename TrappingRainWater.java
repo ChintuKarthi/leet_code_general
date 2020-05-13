@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/trapping-rain-water/
+// Question: https://leetcode.com/problems/trapping-rain-water/
 public int trap(int[] height) {
     int current = 0;
     while(current < height.length && height[current] == 0){
